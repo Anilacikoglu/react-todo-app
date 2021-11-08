@@ -8,7 +8,7 @@ function Form({ addTodo, todos }) {
     }, [todos])
 
     const onChangeInput = (e) => {
-        setForm([...form , e.target.value])
+        setForm(e.target.value)
     }
 
     const onSubmit = (e) => {
